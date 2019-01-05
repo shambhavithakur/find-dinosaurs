@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Find Dinosaurs</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Barlow"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>How quickly can you find your dinosaurs?</h1>
+      <p>
+        Select sections in the highlighted area until the dinosaurs are visible.
+      </p>
+    </header>
+    <main>
+      <!-- <img src="images/dino2.png" class="placed span2 level2"></img>
+        <img src="images/dino3.png" class="placed span3 level4"></img> -->
+      <!-- 
+      <img src="images/dino2.png" class="placed span1 level1"></img>
+      <img src="images/dino2.png" class="placed span1 level2 flip"></img>
+      <img src="images/dino2.png" class="placed span1 level3 "></img>
+      <img src="images/dino2.png" class="placed span1 level4 flip"></img>
+      <img src="images/dino3.png" class="placed span3 level9 flip"></img> -->
+      <div class="img-board">
+        <div class="img-col0"></div>
+        <div class="img-col1"></div>
+        <div class="img-col2"></div>
+        <div class="img-col3"></div>
+        <div class="img-col4"></div>
+        <div class="img-col5"></div>
+        <div class="img-col6"></div>
+        <div class="img-col7"></div>
+        <div class="img-col8"></div>
+        <div class="img-col9"></div>
+        <div class="img-col10"></div>
+        <div class="img-col11"></div>
+        <div class="img-col12"></div>
+        <div class="img-col13"></div>
+        <div class="img-col14"></div>
+        <div class="img-col15"></div>
+        <div class="img-col16"></div>
+        <div class="img-col17"></div>
+        <div class="img-col18"></div>
+        <div class="img-col19"></div>
+        <div class="img-col20"></div>
+        <div class="img-col21"></div>
+        <div class="img-col22"></div>
+        <div class="img-col23"></div>
+        <div class="img-col24"></div>
+        <div class="img-col25"></div>
+        <div class="img-col26"></div>
+        <div class="img-col27"></div>
+        <div class="img-col28"></div>
+        <div class="img-col29"></div>
+        <div class="img-col30"></div>
+        <div class="img-col31"></div>
+        <div class="img-col32"></div>
+        <div class="img-col33"></div>
+        <div class="img-col34"></div>
+        <div class="img-col35"></div>
+        <div class="img-col36"></div>
+        <div class="img-col37"></div>
+        <div class="img-col38"></div>
+        <div class="img-col39"></div>
+        <div class="img-col40"></div>
+        <div class="img-col41"></div>
+        <div class="img-col42"></div>
+        <div class="img-col43"></div>
+        <div class="img-col44"></div>
+        <div class="img-col45"></div>
+        <div class="img-col46"></div>
+        <div class="img-col47"></div>
+        <div class="img-col48"></div>
+        <div class="img-col49"></div>
+      </div>
+      <div class="board">
+        <button class="col0"></button> <button class="col1"></button>
+        <button class="col2"></button> <button class="col3"></button>
+        <button class="col4"></button> <button class="col5"></button>
+        <button class="col6"></button> <button class="col7"></button>
+        <button class="col8"></button> <button class="col9"></button>
+        <button class="col10"></button> <button class="col11"></button>
+        <button class="col12"></button> <button class="col13"></button>
+        <button class="col14"></button> <button class="col15"></button>
+        <button class="col16"></button> <button class="col17"></button>
+        <button class="col18"></button> <button class="col19"></button>
+        <button class="col20"></button> <button class="col21"></button>
+        <button class="col22"></button> <button class="col23"></button>
+        <button class="col24"></button> <button class="col25"></button>
+        <button class="col26"></button> <button class="col27"></button>
+        <button class="col28"></button> <button class="col29"></button>
+        <button class="col30"></button> <button class="col31"></button>
+        <button class="col32"></button> <button class="col33"></button>
+        <button class="col34"></button> <button class="col35"></button>
+        <button class="col36"></button> <button class="col37"></button>
+        <button class="col38"></button> <button class="col39"></button>
+        <button class="col40"></button> <button class="col41"></button>
+        <button class="col42"></button> <button class="col43"></button>
+        <button class="col44"></button> <button class="col45"></button>
+        <button class="col46"></button> <button class="col47"></button>
+        <button class="col48"></button> <button class="col49"></button>
+      </div>
+      <div class="shader">
+        <button class="close-shader" title="Exit">&#10006;</button>
+        <div class="modal">
+          <div class="modal-icons">
+            <div class="modal-icon modal-icon1"></div>
+            <div class="modal-icon modal-icon2"></div>
+            <div class="modal-icon modal-icon3"></div>
+          </div>
+          <p class="modal-info">
+            You found the dinosaurs in
+            <span class="total-time"></span>&nbsp;seconds.
+          </p>
+          <button class="modal-button">Play Again</button>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <aside>
+        <p>
+          Coded by
+          <a
+            class="footer-link"
+            href="http://tshambhavi.github.io/"
+            target="_blank"
+            >Shambhavi</a
+          >
+        </p>
+        <p>
+          Graphics from
+          <a
+            class="footer-link"
+            href="https://www.freepik.com/free-vector/dinosaurs-silhouettes-layers-background-banner-illustration_2870630.htm"
+            target="_blank"
+            >Freepik.com</a
+          >
+        </p>
+      </aside>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
